@@ -1,0 +1,5 @@
+SELECT Career
+FROM Client
+GROUP BY Career
+ORDER BY Career ASC
+LIMIT 100;
